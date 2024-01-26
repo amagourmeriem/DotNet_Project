@@ -1,0 +1,76 @@
+﻿@page
+@model LoginModel
+
+
+
+<div class="card shadow bg-dark border-0 mt-4">
+    <div class="card-header bg-primary bg-gradient ml-0 py-4">
+        <div class="row">
+            <div class="col-12 text-center">
+                @if (User.IsInRole(SD.Role_Admin))
+                {
+                    <h2 class="py-2 text-white">Connexion - PORTAIL ADMINISTRATEUR</h2>
+                }
+                else
+                {
+                    <h2 class="py-2 text-white">Connexion</h2>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4 ">
+        <div class="row pt-4 ">
+            <div class="col-md-6 mx-auto">
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <div class="text-center ">
+                        <h2 style="color: white;">Connectez-vous pour devenir client chez nous.</h2>
+                        <hr />
+                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                            <label asp-for="Input.Email" class="form-label">Email</label>
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                            <label asp-for="Input.Password" class="form-label">Mot de passe</label>
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        @* <div class="checkbox mb-3">
+                            <label asp-for="Input.RememberMe" class="form-label">
+                                <input class="form-check-input" asp-for="Input.RememberMe" />
+                                @Html.DisplayNameFor(m => m.Input.RememberMe)
+                            </label>
+                        </div> *@
+                        <div class="checkbox mb-3">
+                            <label asp-for="Input.RememberMe" class="form-label text-white">
+                                <input class="form-check-input" asp-for="Input.RememberMe" />
+                                Se souvenir de moi
+                            </label>
+                        </div>
+                        <div>
+                            <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary" style="color: white;">Connexion</button>
+                        </div>
+                        <div>
+                            <p>
+                                <a id="forgot-password" asp-page="./ForgotPassword" style="color: white;">Mot de passe oublié ?</a>
+                            </p>
+                            <p style="color: white;">
+                                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Inscrivez-vous </a>
+                            </p>
+                            <p style="color: white;">
+                                <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Renvoyer la confirmation par e-mai</a>
+                            </p>
+                        </div>
+                        </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
