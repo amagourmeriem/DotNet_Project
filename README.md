@@ -1,3 +1,16 @@
+
+
+![Capture d’écran 2024-03-01 à 22 00 56](https://github.com/MeriemAMG/ModElle/assets/156188796/87851d20-01f1-488a-a893-ef523079348f)
+
+![Uploading Capture d’écran 2024-03-01 à 22.01.53.png…]()
+
+![Capture d’écran 2024-03-01 à 22 02 15](https://github.com/MeriemAMG/ModElle/assets/156188796/be1087b6-be06-4205-907a-e6b200d9ec82)
+
+
+![Uploading Capture d’écran 2024-03-01 à 22.02.32.png…]()
+![Uploading Capture d’écran 2024-03-01 à 22.02.47.png…]()
+
+
 # E-commerce Website Project
 
 A .NET Core project e-commerce website (Mod'Elle).
