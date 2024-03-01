@@ -1,14 +1,10 @@
 
 
 ![Capture d’écran 2024-03-01 à 22 00 56](https://github.com/MeriemAMG/ModElle/assets/156188796/87851d20-01f1-488a-a893-ef523079348f)
-
-![Uploading Capture d’écran 2024-03-01 à 22.01.53.png…]()
-
+![Capture d’écran 2024-03-01 à 22 01 53](https://github.com/MeriemAMG/ModElle/assets/156188796/6e236c41-b0ab-4c90-86be-5cd990f6be26)
+![Capture d’écran 2024-03-01 à 22 02 32](https://github.com/MeriemAMG/ModElle/assets/156188796/d6e83685-0abd-49b7-8f92-7f2d82f9e22e)
+![Capture d’écran 2024-03-01 à 22 02 47](https://github.com/MeriemAMG/ModElle/assets/156188796/9a451e0c-529a-4f7d-b183-e4ff0d8229b9)
 ![Capture d’écran 2024-03-01 à 22 02 15](https://github.com/MeriemAMG/ModElle/assets/156188796/be1087b6-be06-4205-907a-e6b200d9ec82)
-
-
-![Uploading Capture d’écran 2024-03-01 à 22.02.32.png…]()
-![Uploading Capture d’écran 2024-03-01 à 22.02.47.png…]()
 
 
 # E-commerce Website Project
